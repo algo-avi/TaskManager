@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-  baseURL: "https://tasktrackerapp-w880.onrender.com/api",
+  baseURL: "https://tasktrackerapp-w880.onrender.com/",
 })
 
 // Add a request interceptor to add the auth token to every request
